@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'lifeCicleHooks';
+  title  : string  = 'lifeCicleHooks';
+  mostrar: boolean = true
 }
